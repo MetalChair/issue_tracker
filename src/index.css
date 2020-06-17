@@ -5,9 +5,68 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-app{
+  margin: 1%;
+}
+
+.header-bar{
+  background-color: #e2e3e5;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+
+.left-header{
+  border-radius: 25px 0px 0px 0px;
+}
+
+.header-row{
+  align-items: center;
+}
+
+.button-icon{
+  font-size: 20px;
+}
+
+.horiz-center-text{
+  text-align: center;
+}
+.icon{
+  height: 65px;
+}
+.github-list{
+  margin-bottom: 2px;
+  height: 100px;
+  justify-content: center;
+  padding: 2%;
+}
+
+.vert-center{
+  display: flex;
+  align-items: center;
+}
+
+.h-100-px{
+  height: 100px;
+}
+
+.modal-80w{
+  max-width: 75% !important;
+}
+
+.max-h-50{
+  min-height: 600px;
+  max-height: 50%;
+  overflow: hidden scroll;
+}
+.column{
+  flex-direction: column;
 }
